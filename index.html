@@ -7,7 +7,7 @@
     <script src="https://unpkg.com/topojson@3.0.2/dist/topojson.js"></script>
 
     <style>
-        .selected
+        .highlighted, .selected
         {
             fill: red;
         }
@@ -57,11 +57,16 @@
                     .attr("fill", "#000")
                     .on("mouseenter", function()
                     {
-                        d3.select(this).classed("selected", true);
+                        d3.select(this).classed("highlighted", true);
                     })
                     .on("mouseleave", function()
                     {
-                        d3.select(".selected").classed("selected", false);
+                        d3.select(".highlighted").classed("highlighted", false);
+                    })
+                    .on("click", function()
+                    {
+                        let selected = d3.select(this).classed("selected");
+                        d3.select(this).classed("selected", !selected);
                     })
                 .append("title")
                     .text(d => d.properties.name);
