@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>World News</title>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://unpkg.com/topojson@3.0.2/dist/topojson.js"></script>
+
+    <style>
+        .selected
+        {
+            fill: red;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        const svg = d3.select("body")
+            .append("svg")
+                .attr("width", innerWidth)
+                .attr("height", innerHeight);
+        
+        const sphere = {type: "Sphere"};
+        const projection = d3.geoOrthographic().fitExtent([[0.05*innerWidth, 0.05*innerHeight], [0.95*innerWidth, 0.95*innerHeight]],sphere);
+        const path = d3.geoPath(projection);
+
+        let time = Date.now();
+        let paused = false;
+        const rotation = d3.timer(rotate);
+
+        window.onkeypress = (e) =>
+        {
+            if (e.keyCode === 32){
+                e.preventDefault();
+                toggleRotation(rotation);
+            }
+        }
+
+        d3.json('countries-110m.json').then((world) => 
+        {
+            const countries = topojson.feature(world, world.objects.countries).features;
+            const graticule = d3.geoGraticule10();
+
+            svg.append("path")
+                .datum(graticule)
+                .attr("d", path)
+                .attr("fill", "none")
+                .attr("stroke", "#999");
+
+            svg.append("g")
+                    .attr("fill", "none")
+                    .attr("cursor", "pointer")
+                .selectAll("path")
+                .data(countries)
+                .join("path")
+                    .attr("d", path)
+                    .attr("fill", "#000")
+                    .on("mouseenter", function()
+                    {
+                        d3.select(this).classed("selected", true);
+                    })
+                    .on("mouseleave", function()
+                    {
+                        d3.select(".selected").classed("selected", false);
+                    })
+                .append("title")
+                    .text(d => d.properties.name);
+
+        });
+
+        function rotate(elapsed)
+        {
+            projection.rotate([0.012 * (time + elapsed), 0, 0]);
+            svg.selectAll("path")
+                .attr("d", path);
+        }
+
+        function toggleRotation(rotation)
+        {
+            paused = !paused;
+            if (paused)
+            {
+                time = Date.now();
+                rotation.stop();
+            }
+            else
+            {
+                rotation.restart(rotate);
+            }
+        }
+    </script>
+</body>
+</html>
