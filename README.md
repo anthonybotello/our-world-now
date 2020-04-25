@@ -1,0 +1,2 @@
+# world-news
+World News is an in progress application where users will be able to select a country and view the top news headlines from that country. The front end will be built using the D3.js JavaScript library and news will be provided using News API.
