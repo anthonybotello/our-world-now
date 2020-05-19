@@ -1,0 +1,14 @@
+<h4 *ngIf="noData">
+    No news available for {{country.name}}.
+</h4>
+
+<ngb-carousel *ngIf="!noData">
+    <ng-template ngbSlide *ngFor="let article of articles">
+        <a [href]="article.url">
+            <img *ngIf="article.urlToImage" [src]="article.urlToImage">
+            <div class="carousel-caption">
+                <h3>{{ article.title }}</h3>
+            </div>
+        </a>
+    </ng-template>
+</ngb-carousel>

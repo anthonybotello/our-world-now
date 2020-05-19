@@ -1,0 +1,18 @@
+mat-grid-list{
+    padding: 0;
+    margin: 0;
+    margin-left: 6vw;
+    padding-top: 8vh;
+}
+
+mat-grid-tile div h1, mat-grid-tile div h2{
+    margin: 0;
+}
+
+mat-grid-tile div h2{
+    text-align: center;
+}
+
+app-globe{
+    height: 100%;
+}
