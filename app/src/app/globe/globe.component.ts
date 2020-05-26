@@ -30,14 +30,16 @@ export class GlobeComponent implements AfterViewInit {
           let path = d3.geoPath(projection);
           let countries = topojson.feature(world, world.objects.countries).features;
 
-          let svg = d3.select('svg')
-            .attr('viewBox', `${[0, 0, width, height]}`);
+          let svg = d3.select('app-globe')
+            .append('svg')
+            .attr('height', height)
+            .attr('width', width);
 
           svg.append('path')
             .datum(graticule)
             .attr('d', path)
             .style('fill', 'none')
-            .style('stroke', '#999');
+            .attr('stroke', '#999');
 
           svg.append('g')
               .style('cursor', 'pointer')
