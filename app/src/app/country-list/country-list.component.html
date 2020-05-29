@@ -4,3 +4,4 @@
         <mat-option *ngFor="let c of countries" [value]="c">{{c.name}}</mat-option>
     </mat-select>
 </mat-form-field>
+<h2 *ngIf="country" id="country-label">{{country.name}}</h2>

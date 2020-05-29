@@ -3,1416 +3,1062 @@
 		"label":"Afghanistan",
 		"name":"Afghanistan",
 		"code":"AF",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Albania": {
 		"label":"Albania",
 		"name":"Albania",
 		"code":"AL",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Algeria": {
 		"label":"Algeria",
 		"name":"Algeria",
 		"code":"DZ",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":23424740
 	},
 	"Angola": {
 		"label":"Angola",
 		"name":"Angola",
 		"code":"AO",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Antarctica": {
 		"label":"Antarctica",
 		"name":"Antarctica",
 		"code":"AQ",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Argentina": {
 		"label":"Argentina",
 		"name":"Argentina",
 		"code":"AR",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":23424747
 	},
 	"Armenia": {
 		"label":"Armenia",
 		"name":"Armenia",
 		"code":"AM",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Australia": {
 		"label":"Australia",
 		"name":"Australia",
 		"code":"AU",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":23424748
 	},
 	"Austria": {
 		"label":"Austria",
 		"name":"Austria",
 		"code":"AT",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":23424750
 	},
 	"Azerbaijan": {
 		"label":"Azerbaijan",
 		"name":"Azerbaijan",
 		"code":"AZ",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Bahamas": {
 		"label":"Bahamas",
 		"name":"Bahamas",
 		"code":"BS",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Bangladesh": {
 		"label":"Bangladesh",
 		"name":"Bangladesh",
 		"code":"BD",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Belarus": {
 		"label":"Belarus",
 		"name":"Belarus",
 		"code":"BY",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":23424765
 	},
 	"Belgium": {
 		"label":"Belgium",
 		"name":"Belgium",
 		"code":"BE",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":23424757
 	},
 	"Belize": {
 		"label":"Belize",
 		"name":"Belize",
 		"code":"BZ",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Benin": {
 		"label":"Benin",
 		"name":"Benin",
 		"code":"BJ",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Bhutan": {
 		"label":"Bhutan",
 		"name":"Bhutan",
 		"code":"BT",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Bolivia": {
 		"label":"Bolivia",
 		"name":"Bolivia, Plurinational State of",
 		"code":"BO",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Bosnia and Herz.": {
 		"label":"Bosnia and Herz.",
 		"name":"Bosnia and Herzegovina",
 		"code":"BA",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Botswana": {
 		"label":"Botswana",
 		"name":"Botswana",
 		"code":"BW",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Brazil": {
 		"label":"Brazil",
 		"name":"Brazil",
 		"code":"BR",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":23424768
 	},
 	"Brunei": {
 		"label":"Brunei",
 		"name":"Brunei",
 		"code":"BN",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Bulgaria": {
 		"label":"Bulgaria",
 		"name":"Bulgaria",
 		"code":"BG",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Burkina Faso": {
 		"label":"Burkina Faso",
 		"name":"Burkina Faso",
 		"code":"BF",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Burundi": {
 		"label":"Burundi",
 		"name":"Burundi",
 		"code":"BI",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Cambodia": {
 		"label":"Cambodia",
 		"name":"Cambodia",
 		"code":"KH",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Cameroon": {
 		"label":"Cameroon",
 		"name":"Cameroon",
 		"code":"CM",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Canada": {
 		"label":"Canada",
 		"name":"Canada",
 		"code":"CA",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":23424775
 	},
 	"Central African Rep.": {
 		"label":"Central African Rep.",
 		"name":"Central African Republic",
 		"code":"CF",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Chad": {
 		"label":"Chad",
 		"name":"Chad",
 		"code":"TD",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Chile": {
 		"label":"Chile",
 		"name":"Chile",
 		"code":"CL",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":23424782
 	},
 	"China": {
 		"label":"China",
 		"name":"China",
 		"code":"CN",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Colombia": {
 		"label":"Colombia",
 		"name":"Colombia",
 		"code":"CO",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":23424787
 	},
 	"Congo": {
 		"label":"Congo",
 		"name":"Congo",
 		"code":"CG",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Dem. Rep. Congo": {
 		"label":"Dem. Rep. Congo",
 		"name":"Congo, the Democratic Republic of the",
 		"code":"CD",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Costa Rica": {
 		"label":"Costa Rica",
 		"name":"Costa Rica",
 		"code":"CR",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Croatia": {
 		"label":"Croatia",
 		"name":"Croatia",
 		"code":"HR",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Cuba": {
 		"label":"Cuba",
 		"name":"Cuba",
 		"code":"CU",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Cyprus": {
 		"label":"Cyprus",
 		"name":"Cyprus",
 		"code":"CY",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Czechia": {
 		"label":"Czechia",
 		"name":"Czechia",
 		"code":"CZ",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Côte d'Ivoire": {
 		"label":"Côte d'Ivoire",
 		"name":"Côte d'Ivoire",
 		"code":"CI",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Denmark": {
 		"label":"Denmark",
 		"name":"Denmark",
 		"code":"DK",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":23424796
 	},
 	"Djibouti": {
 		"label":"Djibouti",
 		"name":"Djibouti",
 		"code":"DJ",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Dominican Rep.": {
 		"label":"Dominican Rep.",
 		"name":"Dominican Republic",
 		"code":"DO",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":23424800
 	},
 	"Ecuador": {
 		"label":"Ecuador",
 		"name":"Ecuador",
 		"code":"EC",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":23424801
 	},
 	"Egypt": {
 		"label":"Egypt",
 		"name":"Egypt",
 		"code":"EG",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":23424802
 	},
 	"El Salvador": {
 		"label":"El Salvador",
 		"name":"El Salvador",
 		"code":"SV",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Eq. Guinea": {
 		"label":"Eq. Guinea",
 		"name":"Equatorial Guinea",
 		"code":"GQ",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Eritrea": {
 		"label":"Eritrea",
 		"name":"Eritrea",
 		"code":"ER",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Estonia": {
 		"label":"Estonia",
 		"name":"Estonia",
 		"code":"EE",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"eSwatini": {
 		"label":"eSwatini",
 		"name":"Eswatini",
 		"code":"SZ",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Ethiopia": {
 		"label":"Ethiopia",
 		"name":"Ethiopia",
 		"code":"ET",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Falkland Is.": {
 		"label":"Falkland Is.",
 		"name":"Falkland Islands",
 		"code":"FK",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Fiji": {
 		"label":"Fiji",
 		"name":"Fiji",
 		"code":"FJ",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Finland": {
 		"label":"Finland",
 		"name":"Finland",
 		"code":"FI",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"France": {
 		"label":"France",
 		"name":"France",
 		"code":"FR",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":23424819
 	},
 	"Fr. S. Antarctic Lands": {
 		"label":"Fr. S. Antarctic Lands",
 		"name":"French Southern Territories",
 		"code":"TF",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Gabon": {
 		"label":"Gabon",
 		"name":"Gabon",
 		"code":"GA",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Gambia": {
 		"label":"Gambia",
 		"name":"Gambia",
 		"code":"GM",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Georgia": {
 		"label":"Georgia",
 		"name":"Georgia",
 		"code":"GE",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Germany": {
 		"label":"Germany",
 		"name":"Germany",
 		"code":"DE",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":23424829
 	},
 	"Ghana": {
 		"label":"Ghana",
 		"name":"Ghana",
 		"code":"GH",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":23424824
 	},
 	"Greece": {
 		"label":"Greece",
 		"name":"Greece",
 		"code":"GR",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":23424833
 	},
 	"Greenland": {
 		"label":"Greenland",
 		"name":"Greenland",
 		"code":"GL",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Guatemala": {
 		"label":"Guatemala",
 		"name":"Guatemala",
 		"code":"GT",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":23424834
 	},
 	"Guinea": {
 		"label":"Guinea",
 		"name":"Guinea",
 		"code":"GN",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Guinea-Bissau": {
 		"label":"Guinea-Bissau",
 		"name":"Guinea-Bissau",
 		"code":"GW",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Guyana": {
 		"label":"Guyana",
 		"name":"Guyana",
 		"code":"GY",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Haiti": {
 		"label":"Haiti",
 		"name":"Haiti",
 		"code":"HT",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Honduras": {
 		"label":"Honduras",
 		"name":"Honduras",
 		"code":"HN",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Hungary": {
 		"label":"Hungary",
 		"name":"Hungary",
 		"code":"HU",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Iceland": {
 		"label":"Iceland",
 		"name":"Iceland",
 		"code":"IS",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"India": {
 		"label":"India",
 		"name":"India",
 		"code":"IN",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":23424848
 	},
 	"Indonesia": {
 		"label":"Indonesia",
 		"name":"Indonesia",
 		"code":"ID",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":23424846
 	},
 	"Iran": {
 		"label":"Iran",
 		"name":"Iran, Islamic Republic of",
 		"code":"IR",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Iraq": {
 		"label":"Iraq",
 		"name":"Iraq",
 		"code":"IQ",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Ireland": {
 		"label":"Ireland",
 		"name":"Ireland",
 		"code":"IE",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":23424803
 	},
 	"Israel": {
 		"label":"Israel",
 		"name":"Israel",
 		"code":"IL",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":23424852
 	},
 	"Italy": {
 		"label":"Italy",
 		"name":"Italy",
 		"code":"IT",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":23424853
 	},
 	"Jamaica": {
 		"label":"Jamaica",
 		"name":"Jamaica",
 		"code":"JM",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Japan": {
 		"label":"Japan",
 		"name":"Japan",
 		"code":"JP",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":23424856
 	},
 	"Jordan": {
 		"label":"Jordan",
 		"name":"Jordan",
 		"code":"JO",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":23424860
 	},
 	"Kazakhstan": {
 		"label":"Kazakhstan",
 		"name":"Kazakhstan",
 		"code":"KZ",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Kenya": {
 		"label":"Kenya",
 		"name":"Kenya",
 		"code":"KE",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":23424863
 	},
 	"North Korea": {
 		"label":"North Korea",
 		"name":"Korea, Democratic People's Republic of",
 		"code":"KP",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"South Korea": {
 		"label":"South Korea",
 		"name":"Korea, Republic of",
 		"code":"KR",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":23424868
 	},
 	"Kosovo": {
 		"label":"Kosovo",
 		"name":"Kosovo",
 		"code":"XK",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Kuwait": {
 		"label":"Kuwait",
 		"name":"Kuwait",
 		"code":"KW",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":23424870
 	},
 	"Kyrgyzstan": {
 		"label":"Kyrgyzstan",
 		"name":"Kyrgyzstan",
 		"code":"KG",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Laos": {
 		"label":"Laos",
 		"name":"Laos",
 		"code":"LA",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Latvia": {
 		"label":"Latvia",
 		"name":"Latvia",
 		"code":"LV",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":23424874
 	},
 	"Lebanon": {
 		"label":"Lebanon",
 		"name":"Lebanon",
 		"code":"LB",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":23424873
 	},
 	"Lesotho": {
 		"label":"Lesotho",
 		"name":"Lesotho",
 		"code":"LS",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Liberia": {
 		"label":"Liberia",
 		"name":"Liberia",
 		"code":"LR",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Libya": {
 		"label":"Libya",
 		"name":"Libya",
 		"code":"LY",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Lithuania": {
 		"label":"Lithuania",
 		"name":"Lithuania",
 		"code":"LT",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Luxembourg": {
 		"label":"Luxembourg",
 		"name":"Luxembourg",
 		"code":"LU",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Macedonia": {
 		"label":"Macedonia",
 		"name":"Macedonia",
 		"code":"MK",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Madagascar": {
 		"label":"Madagascar",
 		"name":"Madagascar",
 		"code":"MG",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Malawi": {
 		"label":"Malawi",
 		"name":"Malawi",
 		"code":"MW",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Malaysia": {
 		"label":"Malaysia",
 		"name":"Malaysia",
 		"code":"MY",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":23424901
 	},
 	"Mali": {
 		"label":"Mali",
 		"name":"Mali",
 		"code":"ML",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Mauritania": {
 		"label":"Mauritania",
 		"name":"Mauritania",
 		"code":"MR",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Mexico": {
 		"label":"Mexico",
 		"name":"Mexico",
 		"code":"MX",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":23424900
 	},
 	"Moldova": {
 		"label":"Moldova",
 		"name":"Moldova",
 		"code":"MD",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Mongolia": {
 		"label":"Mongolia",
 		"name":"Mongolia",
 		"code":"MN",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Montenegro": {
 		"label":"Montenegro",
 		"name":"Montenegro",
 		"code":"ME",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Morocco": {
 		"label":"Morocco",
 		"name":"Morocco",
 		"code":"MA",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Mozambique": {
 		"label":"Mozambique",
 		"name":"Mozambique",
 		"code":"MZ",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Myanmar": {
 		"label":"Myanmar",
 		"name":"Myanmar",
 		"code":"MM",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Namibia": {
 		"label":"Namibia",
 		"name":"Namibia",
 		"code":"NA",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Nepal": {
 		"label":"Nepal",
 		"name":"Nepal",
 		"code":"NP",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Netherlands": {
 		"label":"Netherlands",
 		"name":"Netherlands",
 		"code":"NL",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":23424909
 	},
 	"New Caledonia": {
 		"label":"New Caledonia",
 		"name":"New Caledonia",
 		"code":"NC",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"New Zealand": {
 		"label":"New Zealand",
 		"name":"New Zealand",
 		"code":"NZ",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":23424916
 	},
 	"Nicaragua": {
 		"label":"Nicaragua",
 		"name":"Nicaragua",
 		"code":"NI",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Niger": {
 		"label":"Niger",
 		"name":"Niger",
 		"code":"NE",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Nigeria": {
 		"label":"Nigeria",
 		"name":"Nigeria",
 		"code":"NG",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":23424908
 	},
 	"N. Cyprus": {
 		"label":"N. Cyprus",
 		"name":"Nortern Cyprus",
 		"code":"CY",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Norway": {
 		"label":"Norway",
 		"name":"Norway",
 		"code":"NO",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":23424910
 	},
 	"Oman": {
 		"label":"Oman",
 		"name":"Oman",
 		"code":"OM",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":23424898
 	},
 	"Pakistan": {
 		"label":"Pakistan",
 		"name":"Pakistan",
 		"code":"PK",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":23424922
 	},
 	"Palestine": {
 		"label":"Palestine",
 		"name":"Palestine",
 		"code":"PS",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Panama": {
 		"label":"Panama",
 		"name":"Panama",
 		"code":"PA",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":23424924
 	},
 	"Papua New Guinea": {
 		"label":"Papua New Guinea",
 		"name":"Papua New Guinea",
 		"code":"PG",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Paraguay": {
 		"label":"Paraguay",
 		"name":"Paraguay",
 		"code":"PY",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Peru": {
 		"label":"Peru",
 		"name":"Peru",
 		"code":"PE",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":23424919
 	},
 	"Philippines": {
 		"label":"Philippines",
 		"name":"Philippines",
 		"code":"PH",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":23424934
 	},
 	"Poland": {
 		"label":"Poland",
 		"name":"Poland",
 		"code":"PL",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":23424923
 	},
 	"Portugal": {
 		"label":"Portugal",
 		"name":"Portugal",
 		"code":"PT",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":23424925
 	},
 	"Puerto Rico": {
 		"label":"Puerto Rico",
 		"name":"Puerto Rico",
 		"code":"PR",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":23424935
 	},
 	"Qatar": {
 		"label":"Qatar",
 		"name":"Qatar",
 		"code":"QA",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":23424930
 	},
 	"Romania": {
 		"label":"Romania",
 		"name":"Romania",
 		"code":"RO",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Russia": {
 		"label":"Russia",
 		"name":"Russian Federation",
 		"code":"RU",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":23424936
 	},
 	"Rwanda": {
 		"label":"Rwanda",
 		"name":"Rwanda",
 		"code":"RW",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Saudi Arabia": {
 		"label":"Saudi Arabia",
 		"name":"Saudi Arabia",
 		"code":"SA",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":23424938
 	},
 	"Senegal": {
 		"label":"Senegal",
 		"name":"Senegal",
 		"code":"SN",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Serbia": {
 		"label":"Serbia",
 		"name":"Serbia",
 		"code":"RS",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Sierra Leone": {
 		"label":"Sierra Leone",
 		"name":"Sierra Leone",
 		"code":"SL",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Slovakia": {
 		"label":"Slovakia",
 		"name":"Slovakia",
 		"code":"SK",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Slovenia": {
 		"label":"Slovenia",
 		"name":"Slovenia",
 		"code":"SI",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Solomon Is.": {
 		"label":"Solomon Is.",
 		"name":"Solomon Islands",
 		"code":"SB",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Somalia": {
 		"label":"Somalia",
 		"name":"Somalia",
 		"code":"SO",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Somaliland": {
 		"label":"Somaliland",
 		"name":"Somaliland",
 		"code":"SO",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"South Africa": {
 		"label":"South Africa",
 		"name":"South Africa",
 		"code":"ZA",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":23424942
 	},
 	"S. Sudan": {
 		"label":"S. Sudan",
 		"name":"South Sudan",
 		"code":"SS",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Spain": {
 		"label":"Spain",
 		"name":"Spain",
 		"code":"ES",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":23424950
 	},
 	"Sri Lanka": {
 		"label":"Sri Lanka",
 		"name":"Sri Lanka",
 		"code":"LK",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Sudan": {
 		"label":"Sudan",
 		"name":"Sudan",
 		"code":"SD",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Suriname": {
 		"label":"Suriname",
 		"name":"Suriname",
 		"code":"SR",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Sweden": {
 		"label":"Sweden",
 		"name":"Sweden",
 		"code":"SE",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":23424954
 	},
 	"Switzerland": {
 		"label":"Switzerland",
 		"name":"Switzerland",
 		"code":"CH",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":23424957
 	},
 	"Syria": {
 		"label":"Syria",
 		"name":"Syrian Arab Republic",
 		"code":"SY",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Taiwan": {
 		"label":"Taiwan",
 		"name":"Taiwan",
 		"code":"TW",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Tajikistan": {
 		"label":"Tajikistan",
 		"name":"Tajikistan",
 		"code":"TJ",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Tanzania": {
 		"label":"Tanzania",
 		"name":"Tanzania, United Republic of",
 		"code":"TZ",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Thailand": {
 		"label":"Thailand",
 		"name":"Thailand",
 		"code":"TH",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":23424960
 	},
 	"Timor-Leste": {
 		"label":"Timor-Leste",
 		"name":"Timor-Leste",
 		"code":"TL",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Togo": {
 		"label":"Togo",
 		"name":"Togo",
 		"code":"TG",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Trinidad and Tobago": {
 		"label":"Trinidad and Tobago",
 		"name":"Trinidad and Tobago",
 		"code":"TT",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Tunisia": {
 		"label":"Tunisia",
 		"name":"Tunisia",
 		"code":"TN",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Turkey": {
 		"label":"Turkey",
 		"name":"Turkey",
 		"code":"TR",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":23424969
 	},
 	"Turkmenistan": {
 		"label":"Turkmenistan",
 		"name":"Turkmenistan",
 		"code":"TM",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Uganda": {
 		"label":"Uganda",
 		"name":"Uganda",
 		"code":"UG",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Ukraine": {
 		"label":"Ukraine",
 		"name":"Ukraine",
 		"code":"UA",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":23424976
 	},
 	"United Arab Emirates": {
 		"label":"United Arab Emirates",
 		"name":"United Arab Emirates",
 		"code":"AE",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":23424738
 	},
 	"United Kingdom": {
 		"label":"United Kingdom",
 		"name":"United Kingdom",
 		"code":"GB",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":23424975
 	},
 	"United States of America": {
 		"label":"United States of America",
 		"name":"United States",
 		"code":"US",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":23424977
 	},
 	"Uruguay": {
 		"label":"Uruguay",
 		"name":"Uruguay",
 		"code":"UY",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Uzbekistan": {
 		"label":"Uzbekistan",
 		"name":"Uzbekistan",
 		"code":"UZ",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Vanuatu": {
 		"label":"Vanuatu",
 		"name":"Vanuatu",
 		"code":"VU",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Venezuela": {
 		"label":"Venezuela",
 		"name":"Venezuela, Bolivarian Republic of",
 		"code":"VE",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":23424982
 	},
 	"Vietnam": {
 		"label":"Vietnam",
 		"name":"Viet Nam",
 		"code":"VN",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":23424984
 	},
 	"W. Sahara": {
 		"label":"W. Sahara",
 		"name":"Western Sahara",
 		"code":"EH",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Yemen": {
 		"label":"Yemen",
 		"name":"Yemen",
 		"code":"YE",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Zambia": {
 		"label":"Zambia",
 		"name":"Zambia",
 		"code":"ZM",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	},
 	"Zimbabwe": {
 		"label":"Zimbabwe",
 		"name":"Zimbabwe",
 		"code":"ZW",
-		"woeid":null,
-		"selected":false,
-		"highlighted":false
+		"woeid":null
 	}
 }

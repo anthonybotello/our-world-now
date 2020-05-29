@@ -2,7 +2,7 @@
   <mat-grid-tile [colspan]="4" [rowspan]="2">
     <div>
       <h1 class="mat-display-3">Our <span style="color:#4287f5">World</span> Now</h1>
-      <h2 class="mat-h2">Select a country to get the latest headlines.</h2>
+      <h2 class="mat-h2">Select a country to get the latest news or trends.</h2>
     </div>
   </mat-grid-tile>
   
@@ -13,7 +13,7 @@
   <mat-grid-tile [colspan]="4" [rowspan]="1">
     <app-country-list [(country)]="country" (countrySelection)="onCountrySelection($event)"></app-country-list>
   </mat-grid-tile>
-  
+
   <mat-grid-tile [colspan]="4" [rowspan]="5">
     <app-headlines *ngIf="country" [(country)]="country"></app-headlines>
   </mat-grid-tile>

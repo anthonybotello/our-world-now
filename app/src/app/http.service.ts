@@ -18,8 +18,18 @@ export class HttpService {
     return this.http.get('assets/countries.json');
   }
 
-  getArticles(countryCode: String)
-  {
+  getNews(countryCode: String){
     return this.http.get(`news/${countryCode}`);
+  }
+
+  getTwitter(woeid: Number){
+    return this.http.get(`twitter/${woeid}`);
+  }
+
+  getNewsTest(){
+    return this.http.get('assets/newsTest.json');
+  }
+  getTwitterTest(){
+    return this.http.get('assets/twitterTest.json');
   }
 }

@@ -54,7 +54,7 @@ export class GlobeComponent implements AfterViewInit {
 
           d3.timer(elapsed =>
             {
-              projection.rotate([-0.012 * elapsed, -20, 0]);
+              projection.rotate([-0.006 * elapsed, -20, 0]);
               svg.selectAll('path')
                   .attr('d', path);
             })
