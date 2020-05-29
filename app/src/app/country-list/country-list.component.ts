@@ -7,7 +7,7 @@ import { HttpService } from '../http.service';
   styleUrls: ['./country-list.component.css']
 })
 export class CountryListComponent implements OnInit {
-  countries = [];
+  countries;
   @Input() country;
   @Output() countrySelection = new EventEmitter();
 
@@ -18,15 +18,13 @@ export class CountryListComponent implements OnInit {
   ngOnInit(): void {
     this.httpService.getCountries()
       .subscribe((countries: any) => {
-        for(let c in countries){
-          this.countries.push(countries[c]);
-        }
+        this.countries = countries;
       });
   }
 
   onChange(country: any)
   {
-    this.countrySelection.emit(country.label);
+    this.countrySelection.emit(country);
   }
 
 }
