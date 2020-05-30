@@ -1,5 +1,9 @@
+<!-- This is the main component that holds all of the subcomponents of the application.
+The different components are organized into an Angular Material grid list -->
 <mat-grid-list cols="10" rowHeight="16:9">
+
   <mat-grid-tile [colspan]="4" [rowspan]="2">
+      <!-- This tile contains the webpage's header. -->
     <div>
       <h1 class="mat-display-3">Our <span style="color:#4287f5">World</span> Now</h1>
       <h2 class="mat-h2">Select a country to get the latest news or trends.</h2>
@@ -7,14 +11,30 @@
   </mat-grid-tile>
   
   <mat-grid-tile [colspan]="6" [rowspan]="8">
-    <app-globe [(country)]="country" (countrySelection)="onCountrySelection($event)"></app-globe>
+    <!-- This tile contains the globe component. The main component updates the values of the globe components 'country' and 'rotation' fields using two-day data binding.
+    The 'country' field is simply the currently selected country and the 'rotation' field is a boolean that's true if the globe is currently rotating. The main component (this one)
+    is set up to listen for the 'countrySelection' and 'rotationAction' events from the globe component. The 'countrySelection' event passes a country object to the main component and
+    is emitted when a country is selected on the globe. The 'rotationAction' event passes a boolean and is emitted when the rotation is paused by dragging the globe.-->
+    <app-globe [(country)]="country" [(rotation)]="rotation" (countrySelection)="onCountrySelection($event)" (rotationAction)="onRotationAction($event)"></app-globe>
   </mat-grid-tile>
   
   <mat-grid-tile [colspan]="4" [rowspan]="1">
-    <app-country-list [(country)]="country" (countrySelection)="onCountrySelection($event)"></app-country-list>
+    <!-- This tile contains the country list component. It is an Angular Material select input that contains the list of selectable countries. The 'country' field and 'countrySelection'
+    event work the same as on the globe component. -->
+    <div>
+      <app-country-list [(country)]="country" (countrySelection)="onCountrySelection($event)"></app-country-list>
+      <!-- Also contained in this tile is the rotation control button. Clicking it calls the main component's 'action' method which starts and stops the rotation of the globe. -->
+      <img *ngIf="rotation" (click)="action()" class="action-icon"  src="../assets/pause-24px.svg" alt="Pause Rotation"/>
+      <img *ngIf="!rotation" (click)="action()" class="action-icon" src="../assets/play_arrow-24px.svg" alt="Start Rotation"/>
+      <!-- The reset button is a planned feature that isn't functional yet. Needs debugging. -->
+      <!-- <img (click)="reset()" class="action-icon" src="../assets/refresh-24px.svg" alt="Reset"/> -->
+      <h2 *ngIf="country" id="country-label">{{country.name}}</h2>
+    </div>
   </mat-grid-tile>
 
   <mat-grid-tile [colspan]="4" [rowspan]="5">
-    <app-headlines *ngIf="country" [(country)]="country"></app-headlines>
+    <!-- This tile contains the news/Twitter data retrieved from the server. The 'country' field works the same as before.  -->
+    <app-headlines [(country)]="country"></app-headlines>
   </mat-grid-tile>
+
 </mat-grid-list>

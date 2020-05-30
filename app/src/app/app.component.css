@@ -25,3 +25,14 @@ mat-grid-tile app-headlines{
 h1, h2{
     text-align: center;
 }
+
+.action-icon{
+    cursor: pointer;
+}
+
+#country-label{
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 0.35rem;
+}

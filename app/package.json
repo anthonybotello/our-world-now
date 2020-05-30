@@ -28,6 +28,7 @@
     "rxjs": "~6.5.4",
     "topojson": "^3.0.2",
     "tslib": "^1.10.0",
+    "versor": "^0.1.2",
     "zone.js": "~0.10.2"
   },
   "devDependencies": {

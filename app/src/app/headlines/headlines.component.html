@@ -1,35 +1,57 @@
+<!-- The news/Twitter content is displayed using an Angular Material tab group with a 'News' tab and a 'Twitter' tab. -->
 <mat-tab-group mat-align-tabs="center" origin="0">
+
     <mat-tab label="News">
-        <h4 class="no-data" *ngIf="noNews">
-            No news available for {{country.name}}.
-        </h4>
-        <ngb-carousel *ngIf="!noNews">
-            <ng-template ngbSlide *ngFor="let article of news">
-                <mat-card>
-                    <mat-card-header>
-                        <mat-card-title><a [href]="article.url">{{article.title}}</a></mat-card-title>
-                        <mat-card-subtitle>{{article.source.name}}</mat-card-subtitle>
-                    </mat-card-header>
-                    <img mat-card-image [src]="article.urlToImage">
-                </mat-card>
-                <br>
-            </ng-template>
-        </ngb-carousel> 
-    </mat-tab>
-    <mat-tab label="Twitter">
-        <h4 class="no-data" *ngIf="noTwitter">
-            No Twitter data available for {{country.name}}.
-        </h4>
-        <div *ngIf="!noTwitter">
-            <mat-nav-list>
-                <h3>Hashtags</h3>
-                <a mat-list-item *ngFor="let hashtag of twitterHashtags" [href]="hashtag.url"><span style="color: #3e75ed">{{ hashtag.name }}</span></a>
-            </mat-nav-list>
-            <mat-divider [vertical]="true"></mat-divider>
-            <mat-nav-list>
-                <h3>Queries</h3>
-                <a mat-list-item *ngFor="let query of twitterQueries" [href]="query.url"><span style="color: #3e75ed">{{ query.name }} ({{ query.translatedName }})</span></a>
-            </mat-nav-list>
+        <div *ngIf="country">
+            <!-- Only checks for news data if a country is selected. -->
+            <h4 class="no-data" *ngIf="noNews">
+                <!-- Displays the following message if a country is selected but no news data is available. -->
+                No news available for {{country.name}}.
+            </h4>
+
+            <ngb-carousel *ngIf="!noNews">
+                <!-- If news data is available it is displayed as a carousel of Angular Material cards. -->
+                <ng-template ngbSlide *ngFor="let article of news">
+                    <mat-card>
+
+                        <mat-card-header>
+                            <mat-card-title><a [href]="article.url">{{article.title}}</a></mat-card-title>
+                            <mat-card-subtitle>{{article.source.name}}</mat-card-subtitle>
+                        </mat-card-header>
+
+                        <img mat-card-image [src]="article.urlToImage">
+
+                    </mat-card>
+                </ng-template>
+            </ngb-carousel> 
+
         </div>
     </mat-tab>
+
+    <mat-tab label="Twitter">
+        <div *ngIf="country">
+            <!-- Only checks for Twitter data if a country is selected. -->
+            <h4 class="no-data" *ngIf="noTwitter">
+                <!-- Displays the following message if a country is selected but no Twitter data is available. -->
+                No Twitter data available for {{country.name}}.
+            </h4>
+
+            <div *ngIf="!noTwitter">
+                <!-- If Twitter data is available it is displayed as two separate lists: one for hashtags and one for queries. -->
+                <mat-nav-list>
+                    <h3>Hashtags</h3>
+                    <a mat-list-item *ngFor="let hashtag of hashtags" [href]="hashtag.url"><span style="color: #3e75ed">{{ hashtag.name }}</span></a>
+                </mat-nav-list>
+
+                <mat-divider [vertical]="true"></mat-divider>
+
+                <mat-nav-list>
+                    <h3>Queries</h3>
+                    <a mat-list-item *ngFor="let query of queries" [href]="query.url"><span style="color: #3e75ed">{{ query.name }} ({{ query.translatedName }})</span></a>
+                </mat-nav-list>
+            </div>
+
+        </div>
+    </mat-tab>
+
 </mat-tab-group>
