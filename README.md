@@ -1,6 +1,8 @@
-![](https://github.com/anthonybotello/our-world-now/blob/master/our-world-now.gif)
+# Our World Now
 
 *Our World Now* is a web application that allows users to select from a list of 72 countries in order to see the latest news and Twitter trends from that country. The news data is retrieved using NewsAPI and the Twitter data is retrieved using Twitter API. The data that is returned is translated into English using Google Cloud Translate API. A live version of this project can be found [here](https://own.anthonybotello.com/).
+
+![](https://github.com/anthonybotello/our-world-now/blob/master/our-world-now.gif)
 
 ### Back End
 * [Node.js](https://nodejs.org/en/)
