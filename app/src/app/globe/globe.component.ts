@@ -73,6 +73,7 @@ export class GlobeComponent implements OnInit, AfterViewInit {
           }
 
           let timer;
+          projection.rotate([90, -15, 0]);//rotates the globe to its starting position. Input is array of initial Eulerian angles lambda, phi, and gamma.
           spin(projection.rotate());//initializes the rotation of the globe.
 
           svg.call(drag(projection).on('drag.end', () => {//calls the 'drag' function defined below on the SVG element which allows the user to manually rotate the globe by dragging it.
@@ -101,7 +102,7 @@ export class GlobeComponent implements OnInit, AfterViewInit {
               .attr('d', path);
           }
 
-          function spin(angles){//Initiates rotation of the globe.
+          function spin(angles){//Initiates rotation of the globe. Input is array of current Eulerian angles.
             timer = d3.timer(timeElapsed => {//The 'timer' method continuously invokes the given callback function.
               projection.rotate([angles[0] - (0.009 * timeElapsed), angles[1], angles[2]]);//Each time the callback is invoked the globe's projection is rotated. The new angle is determined by the time elapsed since the rotation started.
               render();//The globe is re-rendered each time the projection is rotated.
